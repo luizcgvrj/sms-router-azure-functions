@@ -1,0 +1,25 @@
+{
+  "name": "sms-router-azure-functions",
+  "version": "1.0.0",
+  "description": "A microservice for centralizing SMS sending and receiving user SMS responses via webhook.",
+  "main": "dist/src/functions/*.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "clean": "rimraf dist",
+    "prestart": "npm run clean && npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "mongodb": "^6.10.0",
+    "twilio": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "18.x",
+    "azure-functions-core-tools": "^4.x",
+    "rimraf": "^5.0.0",
+    "typescript": "^4.0.0"
+  }
+}

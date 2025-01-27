@@ -1,0 +1,28 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "ServiceBusConnection": "",
+
+    "SELF_PUBLIC_IP": "",
+    
+    "SMS_PROVIDER": "",
+
+    "MONGODB_URI": "",
+    "MONGODB_DB_NAME": "",
+
+    
+    "TWILIO_ACCOUNT_SID": "",
+    "TWILIO_AUTH_TOKEN": "",
+    "TWILIO_MESSAGING_SERVICE_SID": "",
+
+
+    "UNIPIX_API_URL": "",
+    "UNIPIX_AUTH_URL": "",
+    "UNIPIX_USERNAME": "",
+    "UNIPIX_PASSWORD": "",
+    "UNIPIX_NOME_EMPRESA": "",
+    "UNIPIX_CENTRO_DE_CUSTO": ""
+  }
+}
